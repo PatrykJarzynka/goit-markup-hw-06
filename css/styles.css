@@ -875,7 +875,9 @@ color:var(--third-color);
 .modal-policy:checked + .user-policy-message::before{
 background-color: var(--secondary-color);
 border:none;
-background-image: url("../images/icons.svg#icon-accept");
+background-repeat: no-repeat;
+background-position: center;
+background-image: url("../images/icon-check.svg");
 }
 
  .modal-button{
