@@ -614,6 +614,10 @@ text-decoration: none;
     color:var(--third-color);
 }
 
+.address-item:first-child{
+    width:246px;
+}
+
 .address-item:not(:first-child){
     margin-top: 9px;
 }
@@ -661,6 +665,54 @@ color:var(--third-color);
 .footer .third-header{
     padding-bottom: 20px;
 }
+
+.footer-form .third-header{
+    margin-left: 78px;
+    padding-top: 12px;
+}
+
+.footer-imput{
+    margin-left: 78px;
+    width: 358px;
+    height:50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: var(--footer-bg-color);
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    outline: none;
+}
+
+.footer-wrapper{
+    display: flex;
+}
+
+.footer-wrapper .modal-button{
+    margin-left: 12px;
+    margin-top: 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: var(--third-color);
+    padding-left: 42px;
+}
+
+.footer-form-icon{
+    margin-left: 24px;
+}
+
+
 /*======== END FOOTER ========*/
 
 /*======== BACKDROP ========*/
@@ -806,7 +858,7 @@ color:var(--third-color);
     width: 16px;
     border: 3px solid;
     border-radius: 3px;
-    color:var(--main-color);
+    border-color:var(--main-color);
 }
 
 .user-policy-message{
@@ -850,5 +902,7 @@ background-image: url("../images/icons.svg#icon-accept");
 .modal-link{
     color:var(--secondary-color);
 }
+
+
 
 /*======== END BACKDROP ========*/
