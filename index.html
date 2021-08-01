@@ -410,35 +410,29 @@
         </button>
         <h2 class="modal-header">Zostaw swoje dane w formularzu poniżej</h2>
         <form action="#" class="modal-form">
-            <label class="modal-label">Imię</label>
+            <label for="user_name" class="modal-label">Imię</label>
             <span class="modal-input-wrapper">
-            <span class="modal-icon-container">
+                <input id="user_name" type="text" class="modal-input" name="name">
                 <svg class="modal-icon" width=12 height=12>
                     <use href="./images/icons.svg#icon-name"></use>
                 </svg>
             </span>
-                <input type="text" class="modal-input" name="user_name">
-            </span>
-            <label class="modal-label">Telefon</label>
+            <label for="user_tel" class="modal-label">Telefon</label>
             <span class="modal-input-wrapper">
-                <span class="modal-icon-container">
-                    <svg class="modal-icon" width=12 height=12>
+                <input id="user_tel" type="tel" class="modal-input" name="tel">
+                <svg class="modal-icon" width=13 height=13>
                         <use href="./images/icons.svg#icon-telephone"></use>
-                    </svg>
-                </span>
-                <input type="tel" class="modal-input" name="user_tel">
+                </svg>
             </span>
-            <label class="modal-label">Email</label>
+            <label for="user_email" class="modal-label">Email</label>
             <span class="modal-input-wrapper">
-                <span class="modal-icon-container">
-                    <svg class="modal-icon" width=12 height=12>
+                <input id="user_email" type="email" class="modal-input" name="email">
+                <svg class="modal-icon" width=15 height=12>
                         <use href="./images/icons.svg#icon-mailbox"></use>
-                    </svg>
-                </span>
-                <input type="email" class="modal-input" name="user_email">
+                </svg>
             </span>
-            <label class="modal-label">Komentarz</label>
-            <textarea class="modal-message" name="user_message" rows="6" placeholder="Wprowadź tekst"></textarea>
+            <label class="modal-label" for="user_message">Komentarz</label>
+            <textarea id="user_message" class="modal-message" name="message" rows="6" placeholder="Wprowadź tekst"></textarea>
             <input type="checkbox" name="user_policy" value="accept_policy" class="modal-policy">
             <label for="user_policy" class="user-policy-message">
                 Oświadczam, iż akceptuję <a href="#" class="modal-link">Regulamin</a> i <a href="#" class="modal-link">Politykę prywantości</a>
