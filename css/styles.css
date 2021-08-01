@@ -58,9 +58,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-/* .input{
-    outline: none;
-} */
+
 
 
 /*======== COMPONENTS ========*/
@@ -739,6 +737,7 @@ color:var(--third-color);
     margin-left: auto;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    padding-left: 42px;
 }
 
 .modal-label{
@@ -751,5 +750,18 @@ color:var(--third-color);
     margin-left: 40px;
     margin-top: 10px;
 }
+
+.modal-message{
+    width:448px;
+    margin-right: auto;
+    margin-left: auto;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+}
+
+
+
 
 /*======== END BACKDROP ========*/
