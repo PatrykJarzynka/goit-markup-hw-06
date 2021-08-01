@@ -58,6 +58,10 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/* .input{
+    outline: none;
+} */
+
 
 /*======== COMPONENTS ========*/
 
@@ -721,6 +725,31 @@ color:var(--third-color);
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 40px;
+}
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-input{
+    width:448px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.modal-label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.166;
+    letter-spacing: 0.01em;
+    color: var(--forth-color);
+    margin-bottom: 4px;
+    margin-left: 40px;
+    margin-top: 10px;
 }
 
 /*======== END BACKDROP ========*/
