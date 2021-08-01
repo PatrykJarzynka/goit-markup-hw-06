@@ -432,11 +432,12 @@
                 </svg>
             </span>
             <label class="modal-label" for="user_message">Komentarz</label>
-            <textarea id="user_message" class="modal-message" name="message" rows="6" placeholder="Wprowadź tekst"></textarea>
-            <input type="checkbox" name="user_policy" value="accept_policy" class="modal-policy">
+            <textarea id="user_message" class="modal-message" name="message" rows="5" placeholder="Wprowadź tekst"></textarea>
+            <input type="checkbox"  id="user_policy" name="policy" value="accept_policy" class="modal-policy is-hidden">
             <label for="user_policy" class="user-policy-message">
                 Oświadczam, iż akceptuję <a href="#" class="modal-link">Regulamin</a> i <a href="#" class="modal-link">Politykę prywantości</a>
             </label>
+            <button type="submit" class="modal-button">Wyślij</button>
         </form>
     </div>
 </div>
