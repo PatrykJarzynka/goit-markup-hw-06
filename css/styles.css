@@ -771,6 +771,9 @@ color:var(--third-color);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 12px 16px;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon{
@@ -789,6 +792,11 @@ color:var(--third-color);
 
 .modal-input:focus + .modal-icon{
     fill:var(--secondary-color);
+}
+
+.modal-message:focus{
+    outline:none;
+    border-color: var(--secondary-color);
 }
 
 /*======== END BACKDROP ========*/
